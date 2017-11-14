@@ -19,13 +19,13 @@ public class Opperator {
     public boolean verify(String username, String password){
         return profiles.verify(username, password);
     }
-    public void showInventory(){
+    public void openInventory(){
         //display inventory and provide options for managing it
     }
-    public void showFuelSales(){
+    public void openFuelSales(){
         //display fuel sales and provide options for managing them
     }
-    public void showTrafficReports(){
+    public void openTrafficReports(){
         //display traffic reports and provide options for managing them
     }
 }

@@ -18,6 +18,15 @@ public class UserInterface {
     public boolean login(String username, String password){
         return rKeep.opperator.verify(username, password);
     }
+    public void openInventory(){
+        rKeep.opperator.openInventory();
+    }
+    public void openFuelSales(){
+        rKeep.opperator.openFuelSales();
+    }
+    public void openTrafficReports(){
+        rKeep.opperator.openTrafficReports();
+    }
     
     
     
@@ -28,7 +37,7 @@ public class UserInterface {
         boolean valid,terminate;
         int choice;
         //correct username: example
-        //corrext password: employee
+        //correct password: employee
         System.out.println("Enter username: ");
         String username=scan.next();
         System.out.println("Enter password: ");
@@ -49,15 +58,15 @@ public class UserInterface {
                 choice=scan.nextInt();
                 switch (choice){
                     case 1:
-                        //opperator.openFuelSales();
+                        openFuelSales();
                         valid=true;
                         break;
                     case 2:
-                        //opperator.openTrafficReports();
+                        openTrafficReports();
                         valid=true;
                         break;
                     case 3:
-                        //opperator.openInventory();
+                        openInventory();
                         valid=true;
                         break;
                     case 4:
