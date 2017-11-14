@@ -9,6 +9,6 @@ package rKeep;
  *
  * @author shadows97_7
  */
-public class TrafficReportsManager {
+public class FuelSales {
     
 }
