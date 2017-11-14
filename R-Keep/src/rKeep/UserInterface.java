@@ -27,11 +27,6 @@ public class UserInterface {
     public void openTrafficReports(){
         rKeep.opperator.openTrafficReports();
     }
-    
-    
-    
-    
-    
     public void run(){
         Scanner scan =  new Scanner(System.in);
         boolean valid,terminate;
